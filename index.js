@@ -19,7 +19,7 @@ app.get("/ping", (req, res) => {
 });
 
 // Mock APIs
-app.get("/press/", (req, res) => {
+app.get("/press", (req, res) => {
     const buttonName = req.query.buttonName;
     res.send(`You pressed ${buttonName}`);
 });
