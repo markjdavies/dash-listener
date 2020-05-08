@@ -8,7 +8,7 @@
       "methods": ["GET"]
     },
     {
-      "src": "/press",
+      "src": "/press/:buttonName",
       "dest": "/index.js",
       "methods": ["GET"]
     }
